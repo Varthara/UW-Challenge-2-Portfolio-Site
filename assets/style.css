@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -8,3 +12,30 @@ header{
 body{
     background-color: #fefae0; 
 }
+
+header h1{
+    display: inline;
+}
+
+nav {
+    display: flex;
+    background-color: #606c38;
+
+}
+
+
+nav a {
+    float: right;
+    color: #fefae0;
+    display: flex;
+    list-style-type: none;
+}
+
+.topflair{
+
+}
+
+main{
+
+}
+
